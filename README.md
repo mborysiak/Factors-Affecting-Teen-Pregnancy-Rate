@@ -1,4 +1,3 @@
-# Factors-Affecting-Teen-Pregnancy-Rate
 # Finding the Main Factors Affecting Teen Pregnancy
 This project looks at various socio-economic and political data to find factors that strongly correlate with increases in teen pregnancy rate. I aggregated, cleaned, and analyzed data related to religion, education, politics, state GDP, population density, and public school funding.
 
