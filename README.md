@@ -1,5 +1,5 @@
 # Finding the Main Factors Affecting Teen Birth Rate
-This project looks at various socio-economic and political data to find factors that strongly correlate with increases in teen birth rate. I aggregated, cleaned, and analyzed data factors related to religion, education, politics, economics, sexual education, and race.
+This project looks at close to 50 different socio-economic and political factors to find variables that strongly correlate with increases in teen birth rate. I aggregated, cleaned, and analyzed data factors related to religion, education, politics, economics, sexual education, and race.
 
 ### Key Questions Explored:
 - Which of the studied variables significantly correlate with teen birth rate?
