@@ -6,12 +6,15 @@ This project looks at close to 50 different socio-economic and political factors
 - Which factor(s) most strongly affect teen birth rate?
 
 ### Key Findings:
-- Religiosity, poverty rate, and population density in each state appears to have the strongest effect on teen birth rate.
+- Religiosity, poverty rate, population density, and political leanings in each state appears to have the strongest effect on teen birth rate.
+
 - Link to plot with final correlation coefficients: https://github.com/mborysiak/Factors-Affecting-Teen-Pregnancy-Rate/blob/master/teen%20birth%20rate%20results.pdf
+
 - Link to interactive map for teen birth rate: https://plot.ly/~mborysiak/20/teen-birth-rate/
 - Link to interactive map for religion importance: https://plot.ly/~mborysiak/14/religiosity-by-state/
 - Link to interactive map for poverty rate: https://plot.ly/~mborysiak/18/poverty-rate-by-state/
 - Link to interactive map for population density: https://plot.ly/~mborysiak/16/population-density-by-state/
+- Link to interactive map for political leanings: https://plot.ly/~mborysiak/22/democratic-vote-share-by-state/
 
 ### Techniques used:
 - pandas for data cleaning
