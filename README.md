@@ -1,27 +1,27 @@
 # Finding the Main Factors Affecting Teen Birth Rate
-This project looks at close to 50 different socio-economic and political factors to find variables that strongly correlate with increases in teen birth rate. I aggregated, cleaned, and analyzed data factors related to religion, education, politics, economics, sexual education, and race.
+## Summary
+This project looks at various socio-economic and political data to find factors that strongly effect the teen birth rate (15-19 year olds) for each state in the US. I aggregated, cleaned, and analyzed data factors related to religion, education, politics, poverty rate and median income, abortion rates for teens and overall, sexual education approaches, and race.
 
-### Key Questions Explored:
-- Which of the studied variables significantly correlate with teen birth rate?
-- Which factor(s) most strongly affect teen birth rate?
+I attempted to find relationships between these explanatory variables using teen birth rate as the response for 51 samples (the 50 states + Washington DC). The importance of various features were selected using univariate selection methods (i.e. correlations), as well as various modeling techniques. The results were aggregated and final selection was made based on additive r-squared analysis.
 
-### Key Findings:
-- Religiosity, poverty rate, population density, and political leanings in each state appears to have the strongest effect on teen birth rate. Together, these four factors explain 81% of variance in the teen birth rates.
-- Link to plot with final correlation coefficients: https://github.com/mborysiak/Factors-Affecting-Teen-Pregnancy-Rate/blob/master/teen%20birth%20rate.pdf
-- Link to interactive map for teen birth rate: https://plot.ly/~mborysiak/20/teen-birth-rate/
-- Link to interactive map for religion importance: https://plot.ly/~mborysiak/14/religiosity-by-state/
-- Link to interactive map for poverty rate: https://plot.ly/~mborysiak/18/poverty-rate-by-state/
-- Link to interactive map for population density: https://plot.ly/~mborysiak/16/population-density-by-state/
-- Link to interactive map for political leanings: https://plot.ly/~mborysiak/22/democratic-vote-share-by-state/
+## Key Questions Explored:
+- Which factor(s) most strongly affect teen birth rate for the various states?
+- With a reduced feature set, how much variance of the teen birth rate response can be explained?
 
-### Techniques used:
-- pandas for data cleaning
-- matplotlib for data visualization
-- scikitlearn for linear regression (with regularization)
-- statsmodel for summary statistics
-- plotly for interactive maps (see end)
+## Techniques used:
+- Univariate Feature Selection
+- Ridge / Lasso / Mutual Info Regression
+- Random Forest Feature Importance
+- Boruta Feature Selection
+- Adjusted R-Squared Analysis
 
-### Data Sources:
+## Key Findings:
+- Poverty rate, religiosity, and political leanings in each state appears to have the strongest effect on teen birth rate.
+- The plot below shows the normalized teen birth rate responses, as well as the normalized poverty rate, religiosity, and republican lean in the 2008 and 2012 elections. Darker red circles to the right indicate higher relative values of each respective category.
+
+<img src="final_result.png"  alt="Drawing" style="width: 800px; float:center;" />
+
+## Data Sources:
 - Teen birth rates: https://www.hhs.gov/ash/oah/adolescent-development/reproductive-health-and-teen-pregnancy/teen-pregnancy-and-childbearing/trends/index.html
 - Religiosity by state: http://www.pewforum.org/religious-landscape-study/state/california/#importance-of-religion-by-state
 - GDP by state: https://en.wikipedia.org/wiki/List_of_U.S._states_by_GDP#cite_note-2
